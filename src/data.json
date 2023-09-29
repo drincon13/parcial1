@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nombre": "Café Especial para tí",
+        "tipo": "Blend",
+        "region": "Angelópolis, Antioquia",
+        "notas": "Panela, Durazno, Caramelo",
+        "fecha_cultivo": "2023-01-18",
+        "altura": 1920,
+        "imagen": "https://github.com/Uniandes-isis2603/recursos-isis2603/blob/master/images/202310/p2_v1/cafe-especial-para-ti-cafe-colombiano_720x.png?raw=true"
+    },
+    {
+        "id": 2,
+        "nombre": "Café Especial Navegante",
+        "tipo": "Café de Origen",
+        "region": "Guatapé, Antioquia",
+        "notas": "Panela, Durazno, Caramelo",
+        "fecha_cultivo": "2023-01-18",
+        "altura": 1920,
+        "imagen": "https://github.com/Uniandes-isis2603/recursos-isis2603/blob/master/images/202310/p2_v1/cafe-especial-para-ti-cafe-colombiano_720x.png?raw=true"
+    }
+]
