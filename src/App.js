@@ -12,7 +12,7 @@ function App() {
   const [cafes, setCafes] = useState([]);
   useEffect(() => {
     const URL =
-      "";
+      "https://raw.githubusercontent.com/drincon13/parcial1/master/src/data.json";
     fetch(URL)
       .then((data) => data.json())
       .then((data) => {

@@ -1,46 +1,38 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import React from "react";
+import { Link } from "react-router-dom";
 
-const { useEffect, useState } = require("react");
-
-function Cafes({cafesList}) {
- 
- return (
-   <div className="container">
-     <h2 className="mt-2">Tabla de cafes</h2>
-     <hr></hr>
-     <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-   </div>
- );
+function Cafes({ cafesList }) {
+  return (
+    <div>
+      <h2>Listado de Cafés</h2>
+      <table className="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Tipo</th>
+            <th>Región</th>
+          </tr>
+        </thead>
+        <tbody>
+          {cafesList.map((cafe) => (
+            <tr key={cafe.id}>
+              <td>{cafe.id}</td>
+              <td>
+                <Link to={`/cafes/${cafe.id}`}>{cafe.nombre}</Link>
+              </td>
+              <td>{cafe.tipo}</td>
+              <td>{cafe.region}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 }
 
 export default Cafes;
+
+
+
+

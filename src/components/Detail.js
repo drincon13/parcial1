@@ -25,7 +25,13 @@ function Detail({ cafesList }) {
                         <Card.Body>
                             <Card.Title>{cafe.nombre}</Card.Title>
                             <Card.Text>
-                                {cafe.descripcion}
+                                {cafe.fecha_cultivo}
+                            </Card.Text>
+                            <Card.Text>
+                                {cafe.notas}
+                            </Card.Text>
+                            <Card.Text>
+                                {cafe.altura}
                             </Card.Text>
                         </Card.Body>
                     </div>
