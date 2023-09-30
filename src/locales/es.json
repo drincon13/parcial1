@@ -1,0 +1,19 @@
+{
+    "error auth" : "Error de autenticación, revise sus credenciales",
+    "login cancelado": "LogIn cancelado",
+    "enter email": "Ingrese su email",
+    "el aroma": "El Aroma Magico",
+    "login": "Inicio de sesión",
+    "user": "Nombre de usuario",
+    "email valid": "Por favor ingrese un correo valido",
+    "password": "Contraseña",
+    "password valid": "Por favor ingrese una contraseña valida",
+    "forgot": "Olvidó su contraseña?",
+    "ingresar": "Ingresar",
+    "cancelar": "Cancelar",
+    "item no": "Item No Encontrado",
+    "list": "Listado de cafes",
+    "nombre": "Nombre",
+    "tipo": "Tipo",
+    "region": "Región"
+}

@@ -1,0 +1,19 @@
+{
+    "error auth" : "Authentication error, check your credentials",
+    "login cancelado" : "LogIn canceled",
+    "enter email": "Enter your email",
+    "el aroma": "The Magic Aroma",
+    "login": "Log In",
+    "user": "Username",
+    "email valid": "Please enter a valid email",
+    "password": "Password",
+    "password valid": "Please enter a valid password",
+    "forgot": "Forgot your password?",
+    "ingresar": "Log In",
+    "cancelar": "Cancel",
+    "item no": "Item not found",
+    "list": "Coffees List",
+    "nombre": "Name",
+    "tipo": "Type",
+    "region": "Region"
+}

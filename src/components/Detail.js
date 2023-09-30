@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom/dist";
 import Card from 'react-bootstrap/Card';
+import { FormattedMessage } from 'react-intl'
 
 
 function Detail({ cafesList }) {
@@ -9,7 +10,7 @@ function Detail({ cafesList }) {
     const cafe = cafesList.find((cafe) => cafe.id === parseInt(id));
 
     if (!cafe) {
-        return <div>Item no encontrado</div>;
+        return <div> <FormattedMessage id= 'item no'></FormattedMessage> </div>;
     }
 
     return (

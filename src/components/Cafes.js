@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FormattedMessage } from 'react-intl'
 
 function Cafes({ cafesList }) {
   return (
     <div>
-      <h2>Listado de Cafés</h2>
+      <h2><FormattedMessage id= 'list'></FormattedMessage></h2>
       <table className="table">
         <thead>
           <tr>
             <th>ID</th>
-            <th>Nombre</th>
-            <th>Tipo</th>
-            <th>Región</th>
+            <th><FormattedMessage id= 'nombre'></FormattedMessage></th>
+            <th><FormattedMessage id= 'tipo'></FormattedMessage></th>
+            <th><FormattedMessage id= 'region'></FormattedMessage></th>
           </tr>
         </thead>
         <tbody>
