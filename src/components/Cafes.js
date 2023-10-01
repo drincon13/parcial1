@@ -6,8 +6,8 @@ function Cafes({ cafesList }) {
   return (
     <div>
       <h2><FormattedMessage id= 'list'></FormattedMessage></h2>
-      <table className="table">
-        <thead>
+      <table class="table">
+        <thead class="thead-dark">
           <tr>
             <th>ID</th>
             <th><FormattedMessage id= 'nombre'></FormattedMessage></th>
@@ -33,7 +33,5 @@ function Cafes({ cafesList }) {
 }
 
 export default Cafes;
-
-
 
 
